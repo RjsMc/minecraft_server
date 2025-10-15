@@ -3,10 +3,15 @@
 # To ADD, DELETE, and EDIT groups use the command /mvinv group.
 # No support will be given for those who manually edit these groups.
 groups:
-  default:
+  NikoWorld:
     worlds:
-    - hub_the_end
-    - hub
-    - hub_nether
+    - nikoworld_the_end
+    - nikoworld
+    - nikoworld_nether
     shares:
     - all
+  Hub_Group:
+    worlds:
+    - rjsmc_hub
+    shares:
+    - last_location

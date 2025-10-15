@@ -99,31 +99,31 @@ teleport:
   # Sets the horizontal (x and z-axis) search radius for finding a safe location to teleport to.
   # Increasing this value will widen the search area at the cost of performance.
   # To disable, set to 0.
-  safe-location-horizontal-search-radius: 3
+  safe-location-horizontal-search-radius: 1
   
   # Sets the vertical (y-axis) search radius for finding a safe location to teleport to.
   # Increasing this value will widen the search area at the cost of performance.
   # To disable, set to 0.
-  safe-location-vertical-search-radius: 3
+  safe-location-vertical-search-radius: 1
   
   
 spawn:
   # Sets whether Multiverse will override the location where the player spawns when they join the server
   # for the first time. For fixed spawn location on every login, see the `join-destination` option below.
   # If disabled, it will default to server.properties settings.
-  first-spawn-override: false
+  first-spawn-override: true
   
   # Sets the world that Multiverse will use as the location for players that join the server for the first time.
   # This only applies if first-spawn-override is set to true.
-  first-spawn-location: ''
+  first-spawn-location: a:Hub
   
   # Enables setting of a fixed location for players to spawn in when they join the server every time.
   # See `join-destination` option below as well.
-  enable-join-destination: false
+  enable-join-destination: true
   
   # Sets the destination that Multiverse will use to spawn players on every login.
   # Set the above enable-join-destination to false to disable
-  join-destination: ''
+  join-destination: w:hub
   
   # This only applies if the `respawn-world` property is not set for the world that the player died in,
   # and the player does not have bed or anchor set.
@@ -168,7 +168,7 @@ portal:
 messaging:
   # This config option defines whether or not Multiverse should prefix the chat with the world name.
   # Ensure this is false if you want another plugin to handle chat formatting.
-  enable-chat-prefix: false
+  enable-chat-prefix: true
   
   # This config option defines the format Multiverse should use when prefixing the chat with the world name.
   # This only applies if enable-chat-prefix is set to true.
