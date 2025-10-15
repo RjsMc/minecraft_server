@@ -14,4 +14,4 @@ aliases:
   icanhasbukkit:
   - version $1-
   hub:
-  - multiverse-core:mvtp a:Hub -
+  - multiverse-core:mvtp a:Hub
