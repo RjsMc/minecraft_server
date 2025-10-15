@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1760507645924
-  login: 1760506054787
+  logout: 1760509800270
+  login: 1760509822140
 money: '0'
 last-account-name: RjsMc
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 594c1840-8bcb-4504-b562-a45c1ba27e9f
   world-name: RjsMc_Hub
-  x: 5.785104475269396
-  y: -60.0
-  z: 8.436250064730558
-  yaw: 4.101658821105957
-  pitch: 67.89688110351562
+  x: 8.605243555550357
+  y: -9.0
+  z: 8.570594181502967
+  yaw: 2.2718253135681152
+  pitch: 89.61103057861328

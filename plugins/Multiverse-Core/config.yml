@@ -168,7 +168,7 @@ portal:
 messaging:
   # This config option defines whether or not Multiverse should prefix the chat with the world name.
   # Ensure this is false if you want another plugin to handle chat formatting.
-  enable-chat-prefix: true
+  enable-chat-prefix: false
   
   # This config option defines the format Multiverse should use when prefixing the chat with the world name.
   # This only applies if enable-chat-prefix is set to true.

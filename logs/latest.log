@@ -1,323 +1,300 @@
-[01:26:17] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-LTS; Red Hat, Inc. (Red_Hat-21.0.8.0.9-1)) on Linux 5.14.0-621.el9.x86_64 (amd64)
-[01:26:17] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) for Minecraft 1.21.8
-[01:26:17] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[01:26:18] [ServerMain/INFO]: [PluginInitializerManager] Initialized 10 plugins
-[01:26:18] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[02:27:56] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-LTS; Red Hat, Inc. (Red_Hat-21.0.8.0.9-1)) on Linux 5.14.0-621.el9.x86_64 (amd64)
+[02:27:56] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) for Minecraft 1.21.8
+[02:27:56] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[02:27:57] [ServerMain/INFO]: [PluginInitializerManager] Initialized 13 plugins
+[02:27:57] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - CommandPanels (4.1.1)
-[01:26:18] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (9):
- - Essentials (2.21.2), LuckPerms (5.5.17), Multiverse-Core (5.3.0), Multiverse-Inventories (5.2.0), Multiverse-NetherPortals (5.0.3), Multiverse-Portals (5.1.0), Multiverse-SignPortals (5.0.1), Vault (1.7.3-b131), WorldEdit (7.3.16+cbf4bd5)
-[01:26:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[01:26:23] [ServerMain/INFO]: Loaded 1407 recipes
-[01:26:23] [ServerMain/INFO]: Loaded 1520 advancements
-[01:26:23] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[01:26:24] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 334.7ms
-[01:26:24] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[01:26:24] [Server thread/INFO]: Loading properties
-[01:26:24] [Server thread/INFO]: This server is running Paper version 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[01:26:24] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[01:26:24] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:26:24] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:26:24] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
-[01:26:24] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[01:26:25] [Server thread/INFO]: Default game type: SURVIVAL
-[01:26:25] [Server thread/INFO]: Generating keypair
-[01:26:25] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:26:25] [Server thread/INFO]: Using epoll channel type
-[01:26:25] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[01:26:25] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[01:26:25] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.17
-[01:26:25] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[01:26:25] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[01:26:25] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.0
-[01:26:25] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
-[01:26:26] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@631d598b]
-[01:26:26] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v5.1.0
-[01:26:26] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
-[01:26:26] [Server thread/INFO]: [Multiverse-SignPortals] Loading server plugin Multiverse-SignPortals v5.0.1
-[01:26:26] [Server thread/INFO]: [Multiverse-NetherPortals] Loading server plugin Multiverse-NetherPortals v5.0.3
-[01:26:26] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v5.2.0
-[01:26:26] [Server thread/INFO]: [CommandPanels] Loading server plugin CommandPanels v4.1.1
-[01:26:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[01:26:26] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.17
-[01:26:26] [Server thread/INFO]:         __    
-[01:26:26] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.17
-[01:26:26] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[01:26:26] [Server thread/INFO]: 
-[01:26:26] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[01:26:27] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[01:26:27] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[01:26:27] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1009ms)
-[01:26:27] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[01:26:27] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[01:26:27] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[01:26:27] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[01:26:27] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[01:26:27] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
-[01:26:27] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[01:26:27] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[01:26:27] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
-[01:26:28] [Server thread/INFO]: Preparing level "RjsMc_Hub"
-[01:26:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:26:29] [Server thread/INFO]: Time elapsed: 3 ms
-[01:26:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[01:26:29] [Server thread/INFO]: Preparing spawn area: 100%
-[01:26:29] [Server thread/INFO]: Preparing spawn area: 100%
-[01:26:29] [Server thread/INFO]: Time elapsed: 558 ms
-[01:26:29] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[01:26:29] [Server thread/INFO]: Preparing spawn area: 100%
-[01:26:29] [Server thread/INFO]: Time elapsed: 45 ms
-[01:26:29] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.0
-[01:26:30] [Server thread/INFO]: Preparing start region for dimension minecraft:nikoworld_the_end
-[01:26:30] [Server thread/INFO]: Preparing spawn area: 0%
-[01:26:30] [Server thread/INFO]: Time elapsed: 67 ms
-[01:26:30] [Server thread/INFO]: Preparing start region for dimension minecraft:murderrun
-[01:26:30] [Server thread/INFO]: Preparing spawn area: 0%
-[01:26:30] [Server thread/INFO]: Time elapsed: 118 ms
-[01:26:30] [Server thread/INFO]: Preparing start region for dimension minecraft:nikoworld
-[01:26:30] [Server thread/INFO]: Preparing spawn area: 0%
-[01:26:31] [Server thread/INFO]: Time elapsed: 301 ms
-[01:26:31] [Server thread/INFO]: Preparing start region for dimension minecraft:nikoworld_nether
-[01:26:31] [Server thread/INFO]: Preparing spawn area: 0%
-[01:26:31] [Server thread/INFO]: Time elapsed: 164 ms
-[01:26:31] [Server thread/INFO]: [Multiverse-Core] Loading anchor:  'Hub'...
-[01:26:31] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[01:26:31] [Server thread/INFO]: [Multiverse-Core] Version 5.3.0 (API v5.3) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[01:26:31] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
-[01:26:31] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v5.1.0
-[01:26:31] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
-[01:26:31] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
-[01:26:31] [Server thread/INFO]: [Multiverse-Portals 5.1.0]  Enabled - By Rigby, fernferret and benwoo1110
-[01:26:31] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
-[01:26:32] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[01:26:32] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[01:26:32] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
-[01:26:32] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
-[01:26:32] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
-[01:26:32] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
-[01:26:32] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
-[01:26:32] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
-[01:26:32] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
-[01:26:32] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
-[01:26:32] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
-[01:26:32] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
-[01:26:32] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
-[01:26:32] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
-[01:26:32] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
-[01:26:32] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
-[01:26:32] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
-[01:26:32] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
-[01:26:32] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
-[01:26:32] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
-[01:26:32] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
-[01:26:32] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
-[01:26:32] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
-[01:26:32] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
-[01:26:32] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
-[01:26:32] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
-[01:26:32] [Server thread/INFO]: [Essentials] Using locale en_US
-[01:26:32] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[01:26:32] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[01:26:32] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[01:26:32] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[01:26:32] [Server thread/INFO]: [Multiverse-SignPortals] Enabling Multiverse-SignPortals v5.0.1
-[01:26:32] [Server thread/INFO]: [Multiverse-SignPortals 5.0.1]  Enabled - By Rigby and fernferret
-[01:26:32] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v5.0.3
-[01:26:32] [Server thread/INFO]: [Multiverse-NetherPortals 5.0.3]  Enabled - By Rigby, fernferret and benwoo1110
-[01:26:32] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.2.0
-[01:26:33] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
-[01:26:33] [Server thread/INFO]: [Multiverse-Inventories] Version 5.2.0 (API v5.2) Enabled - By dumptruckman and benwoo1110
-[01:26:33] [Server thread/INFO]: [CommandPanels] Enabling CommandPanels v4.1.1
-[01:26:33] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v4.1.1 Plugin Loading...
-[01:26:33] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v4.1.1 Plugin Loaded!
-[01:26:33] [Server thread/INFO]: [spark] Starting background profiler...
-[01:26:33] [Server thread/INFO]: Done preparing level "RjsMc_Hub" (4.882s)
-[01:26:33] [Server thread/INFO]: Running delayed init tasks
-[01:26:33] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[01:26:33] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
-[01:26:33] [Server thread/INFO]: Done (16.982s)! For help, type "help"
-[01:26:33] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] Checking for Updates ... 
-[01:26:33] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] No new version available
-[01:27:34] [User Authenticator #0/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
-[01:27:34] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, Essentials]
-[01:27:34] [Server thread/INFO]: RjsMc joined the game
-[01:27:34] [Server thread/INFO]: RjsMc[/96.231.192.233:53514] logged in with entity id 336 at ([RjsMc_Hub]8.399175829286065, -9.0, 8.56673062750721)
-[01:27:36] [Server thread/INFO]: RjsMc issued server command: /hub
-[01:27:38] [Server thread/INFO]: RjsMc issued server command: /hub
-[01:27:38] [Server thread/WARN]: RjsMc moved too quickly! 3.1356376855713295,21.833508822349202,-0.0021043788748791314
-[01:27:38] [Server thread/WARN]: RjsMc moved too quickly! 3.1356376855713295,21.833508822349202,-0.0021043788748791314
-[01:32:26] [Server thread/INFO]: RjsMc issued server command: /mv regen
-[01:32:30] [Server thread/INFO]: RjsMc issued server command: /mv anchor
-[01:32:31] [Server thread/INFO]: RjsMc issued server command: /mv anchor list
-[01:32:33] [Server thread/INFO]: RjsMc issued server command: /hub
-[01:32:33] [Server thread/WARN]: RjsMc moved too quickly! 0.8428364253531893,28.514931815469893,-0.24223618877433672
-[01:32:33] [Server thread/WARN]: RjsMc moved too quickly! 0.8428364253531893,28.514931815469893,-0.24223618877433672
-[01:32:46] [Async Chat Thread - #2/INFO]: [] <RjsMc> .
-[01:33:03] [Server thread/INFO]: RjsMc issued server command: /mv modify Hub set alias &bHub
-[01:33:04] [Async Chat Thread - #2/INFO]: [] <RjsMc> test
-[01:33:21] [Server thread/INFO]: RjsMc issued server command: /mv config chat-prefix-format
-[01:33:23] [Server thread/INFO]: RjsMc issued server command: /mv config chat-prefix-format
-[01:33:38] [Server thread/INFO]: RjsMc issued server command: /mv modify set hidden false
-[01:33:39] [Async Chat Thread - #2/INFO]: [Hub] <RjsMc> fg
-[01:34:15] [Server thread/INFO]: RjsMc issued server command: /mv config show-legacy-aliases
-[01:40:07] [Server thread/INFO]: RjsMc issued server command: /spawn
-[01:40:12] [Server thread/INFO]: RjsMc issued server command: /essentials:spawn
-[01:40:14] [Server thread/INFO]: RjsMc issued server command: /plugins
-[01:46:45] [Server thread/INFO]: RjsMc issued server command: /deop RjsMc
-[01:46:45] [Server thread/INFO]: [RjsMc: Made RjsMc no longer a server operator]
-[01:46:51] [Server thread/INFO]: RjsMc issued server command: /hub
-[01:46:52] [Server thread/INFO]: RjsMc issued server command: /hub
-[01:46:56] [Server thread/INFO]: RjsMc issued server command: /hub
-[01:47:14] [Server thread/INFO]: Made RjsMc a server operator
-[01:47:23] [Server thread/INFO]: RjsMc issued server command: /luckperms editor
-[01:48:46] [luckperms-worker-9/INFO]: [LP] LOG > (RjsMc) [G] (default)
-[01:48:46] [luckperms-worker-9/INFO]: [LP] LOG > webeditor add multiverse.access.* true
-[01:48:51] [Server thread/INFO]: RjsMc issued server command: /deop RjsMc
-[01:48:51] [Server thread/INFO]: [RjsMc: Made RjsMc no longer a server operator]
-[01:48:51] [Server thread/INFO]: RjsMc issued server command: /hub
-[01:48:53] [Server thread/INFO]: RjsMc issued server command: /hub
-[01:50:11] [luckperms-worker-9/WARN]: [LuckPerms] Exception occurred handling message from socket
-java.lang.IllegalStateException: Sender does not have applyedits permission
-	at me.lucko.luckperms.common.webeditor.socket.listener.HandlerChangeRequest.handle(HandlerChangeRequest.java:59) ~[?:?]
-	at me.lucko.luckperms.common.webeditor.socket.listener.WebEditorSocketListener.handleMessageFrame(WebEditorSocketListener.java:146) ~[?:?]
-	at me.lucko.luckperms.common.webeditor.socket.listener.WebEditorSocketListener.lambda$onMessage$0(WebEditorSocketListener.java:90) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[01:50:26] [Server thread/INFO]: Made RjsMc a server operator
-[01:50:28] [Server thread/INFO]: RjsMc issued server command: /luckperms applyedits DkO8xrpD2H
-[01:50:28] [luckperms-command-executor/INFO]: [LP] LOG > (RjsMc) [G] (default)
-[01:50:28] [luckperms-command-executor/INFO]: [LP] LOG > webeditor add multiverse.teleport.self.a.hub true
-[01:50:31] [Server thread/INFO]: RjsMc issued server command: /deop RjsMc
-[01:50:31] [Server thread/INFO]: [RjsMc: Made RjsMc no longer a server operator]
-[01:50:33] [Server thread/INFO]: RjsMc issued server command: /hub]
-[01:50:34] [Server thread/INFO]: RjsMc issued server command: /hub
-[01:50:34] [Server thread/WARN]: RjsMc moved too quickly! 3.5509458848074162,51.0,8.514563858072089
-[01:50:34] [Server thread/WARN]: RjsMc moved too quickly! 3.5509458848074162,51.0,8.514563858072089
-[01:50:34] [Server thread/WARN]: RjsMc moved too quickly! 3.5509458848074162,51.0,8.514563858072089
-[01:50:34] [Server thread/WARN]: RjsMc moved too quickly! 3.5509458848074162,51.0,8.514563858072089
-[01:50:34] [Server thread/WARN]: RjsMc moved too quickly! 3.5509458848074162,51.0,8.514563858072089
-[01:51:50] [luckperms-worker-9/WARN]: [LuckPerms] Exception occurred handling message from socket
-java.lang.IllegalStateException: Sender does not have applyedits permission
-	at me.lucko.luckperms.common.webeditor.socket.listener.HandlerChangeRequest.handle(HandlerChangeRequest.java:59) ~[?:?]
-	at me.lucko.luckperms.common.webeditor.socket.listener.WebEditorSocketListener.handleMessageFrame(WebEditorSocketListener.java:146) ~[?:?]
-	at me.lucko.luckperms.common.webeditor.socket.listener.WebEditorSocketListener.lambda$onMessage$0(WebEditorSocketListener.java:90) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
-[01:51:59] [luckperms-command-executor/INFO]: [LP] The changes received from the web editor are based on an initial session which has already been applied!
-[01:51:59] [luckperms-command-executor/INFO]: [LP] To avoid conflicts, you should never re-use the same editor session after the changes from it have been applied once already.
-[01:51:59] [luckperms-command-executor/INFO]: [LP] To ignore this warning and apply the changes anyway, run: /luckperms applyedits rLwIiluikY --force
-[01:52:14] [Server thread/INFO]: Made RjsMc a server operator
-[01:52:16] [Server thread/INFO]: RjsMc issued server command: /luckperms applyedits rLwIiluikY
-[01:52:35] [Server thread/INFO]: RjsMc issued server command: /lp editor
-[01:52:48] [luckperms-worker-0/INFO]: [LP] LOG > (RjsMc) [U] (rjsmc)
-[01:52:48] [luckperms-worker-0/INFO]: [LP] LOG > webeditor add minecraft.command.op true
-[01:52:52] [Server thread/INFO]: RjsMc issued server command: /deop RjsMc
-[01:52:52] [Server thread/INFO]: [RjsMc: Made RjsMc no longer a server operator]
-[01:52:53] [Server thread/INFO]: RjsMc issued server command: /op RjsMc
-[01:52:53] [Server thread/INFO]: [RjsMc: Made RjsMc a server operator]
-[01:52:56] [Server thread/INFO]: RjsMc issued server command: /deop RjsMc
-[01:52:56] [Server thread/INFO]: [RjsMc: Made RjsMc no longer a server operator]
-[01:52:57] [Server thread/INFO]: RjsMc issued server command: /gamemode
-[01:52:57] [Server thread/INFO]: [Essentials] RjsMc was denied access to command.
-[01:53:00] [Server thread/INFO]: RjsMc issued server command: /op RjsMc
-[01:53:00] [Server thread/INFO]: [RjsMc: Made RjsMc a server operator]
-[01:53:36] [Server thread/INFO]: RjsMc issued server command: /deop RjsMc
-[01:53:36] [Server thread/INFO]: [RjsMc: Made RjsMc no longer a server operator]
-[01:53:45] [Server thread/INFO]: RjsMc issued server command: /mvtp MurderRun
-[01:53:47] [Server thread/INFO]: RjsMc issued server command: /mvtp a:Hub
-[01:53:47] [Server thread/WARN]: RjsMc moved too quickly! 7.815063733748933,51.0,8.11171155904859
-[01:53:47] [Server thread/WARN]: RjsMc moved too quickly! 7.815063733748933,51.0,8.11171155904859
-[01:53:47] [Server thread/WARN]: RjsMc moved too quickly! 7.815063733748933,51.0,8.11171155904859
-[01:53:47] [Server thread/WARN]: RjsMc moved too quickly! 7.815063733748933,51.0,8.11171155904859
-[01:53:47] [Server thread/WARN]: RjsMc moved too quickly! 7.815063733748933,51.0,8.11171155904859
-[01:54:05] [Server thread/INFO]: Stopping server
-[01:54:05] [Server thread/INFO]: [CommandPanels] Disabling CommandPanels v4.1.1
-[01:54:05] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels Plugin Disabled, aww man.
-[01:54:05] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v5.2.0
-[01:54:05] [Server thread/INFO]: [Multiverse-NetherPortals] Disabling Multiverse-NetherPortals v5.0.3
-[01:54:05] [Server thread/INFO]: [Multiverse-NetherPortals] - Disabled
-[01:54:05] [Server thread/INFO]: [Multiverse-SignPortals] Disabling Multiverse-SignPortals v5.0.1
-[01:54:05] [Server thread/INFO]: [Multiverse-SignPortals] - Disabled
-[01:54:05] [Server thread/INFO]: [Essentials] Disabling Essentials v2.21.2
-[01:54:05] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[01:54:05] [Server thread/INFO]: [Multiverse-Portals] Disabling Multiverse-Portals v5.1.0
-[01:54:05] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.16+cbf4bd5
-[01:54:05] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[01:54:05] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v5.3.0
-[01:54:05] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[01:54:05] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.17
-[01:54:05] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[01:54:05] [Server thread/INFO]: [LuckPerms] Closing storage...
-[01:54:05] [Server thread/INFO]: [LuckPerms] Goodbye!
-[01:54:05] [Server thread/INFO]: Saving players
-[01:54:05] [Server thread/INFO]: RjsMc lost connection: Server closed
-[01:54:05] [Server thread/INFO]: RjsMc left the game
-[01:54:06] [Server thread/INFO]: Saving worlds
-[01:54:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[RjsMc_Hub]'/minecraft:overworld
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'RjsMc_Hub'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'RjsMc_Hub'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'RjsMc_Hub'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'RjsMc_Hub' in 0.01s
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'RjsMc_Hub'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'RjsMc_Hub'
-[01:54:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[RjsMc_Hub_nether]'/minecraft:the_nether
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'RjsMc_Hub_nether'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'RjsMc_Hub_nether'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'RjsMc_Hub_nether'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 3 entity chunks, 0 poi chunks in world 'RjsMc_Hub_nether' in 0.01s
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'RjsMc_Hub_nether'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'RjsMc_Hub_nether'
-[01:54:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[RjsMc_Hub_the_end]'/minecraft:the_end
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'RjsMc_Hub_the_end'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'RjsMc_Hub_the_end'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'RjsMc_Hub_the_end'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'RjsMc_Hub_the_end' in 0.00s
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'RjsMc_Hub_the_end'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'RjsMc_Hub_the_end'
-[01:54:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[NikoWorld_the_end]'/minecraft:nikoworld_the_end
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'NikoWorld_the_end'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'NikoWorld_the_end'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'NikoWorld_the_end'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 34 entity chunks, 0 poi chunks in world 'NikoWorld_the_end' in 0.01s
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'NikoWorld_the_end'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'NikoWorld_the_end'
-[01:54:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[MurderRun]'/minecraft:murderrun
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'MurderRun'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'MurderRun'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'MurderRun'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'MurderRun' in 0.00s
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'MurderRun'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'MurderRun'
-[01:54:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[NikoWorld]'/minecraft:nikoworld
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'NikoWorld'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'NikoWorld'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'NikoWorld'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 34 entity chunks, 0 poi chunks in world 'NikoWorld' in 0.01s
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'NikoWorld'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'NikoWorld'
-[01:54:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[NikoWorld_nether]'/minecraft:nikoworld_nether
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'NikoWorld_nether'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'NikoWorld_nether'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'NikoWorld_nether'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 28 entity chunks, 0 poi chunks in world 'NikoWorld_nether' in 0.01s
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'NikoWorld_nether'
-[01:54:06] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'NikoWorld_nether'
-[01:54:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (RjsMc_Hub): All chunks are saved
-[01:54:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:54:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:54:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:54:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (MurderRun): All chunks are saved
-[01:54:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (NikoWorld): All chunks are saved
-[01:54:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:54:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01:54:06] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[01:54:06] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[01:54:06] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[01:54:06] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[02:27:57] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (12):
+ - AxiomPaper (5.0.1+1.21.8), DiscordSRV (1.30.1), Essentials (2.21.2), LuckPerms (5.5.17), Multiverse-Core (5.3.0), Multiverse-Inventories (5.2.0), Multiverse-NetherPortals (5.0.3), Multiverse-Portals (5.1.0), Multiverse-SignPortals (5.0.1), TAB (5.3.2), Vault (1.7.3-b131), WorldEdit (7.3.16+cbf4bd5)
+[02:28:01] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:28:02] [ServerMain/INFO]: Loaded 1407 recipes
+[02:28:02] [ServerMain/INFO]: Loaded 1520 advancements
+[02:28:02] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[02:28:02] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 294.1ms
+[02:28:02] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[02:28:02] [Server thread/INFO]: Loading properties
+[02:28:03] [Server thread/INFO]: This server is running Paper version 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[02:28:03] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[02:28:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[02:28:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[02:28:03] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[02:28:03] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[02:28:03] [Server thread/INFO]: Default game type: SURVIVAL
+[02:28:03] [Server thread/INFO]: Generating keypair
+[02:28:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:28:03] [Server thread/INFO]: Using epoll channel type
+[02:28:03] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[02:28:03] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[02:28:04] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.17
+[02:28:04] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[02:28:04] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[02:28:04] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.0
+[02:28:04] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
+[02:28:05] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@225e8fe7]
+[02:28:05] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
+[02:28:05] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v5.1.0
+[02:28:05] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.3.2
+[02:28:05] [Server thread/INFO]: [DiscordSRV] Loading server plugin DiscordSRV v1.30.1
+[02:28:05] [Server thread/INFO]: [AxiomPaper] Loading server plugin AxiomPaper v5.0.1+1.21.8
+[02:28:05] [Server thread/INFO]: [Multiverse-SignPortals] Loading server plugin Multiverse-SignPortals v5.0.1
+[02:28:05] [Server thread/INFO]: [Multiverse-NetherPortals] Loading server plugin Multiverse-NetherPortals v5.0.3
+[02:28:05] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v5.2.0
+[02:28:05] [Server thread/INFO]: [CommandPanels] Loading server plugin CommandPanels v4.1.1
+[02:28:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:28:05] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.17
+[02:28:05] [Server thread/INFO]:         __    
+[02:28:05] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.17
+[02:28:05] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[02:28:05] [Server thread/INFO]: 
+[02:28:05] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[02:28:06] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[02:28:06] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[02:28:06] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1051ms)
+[02:28:06] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[02:28:06] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[02:28:06] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[02:28:06] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[02:28:06] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[02:28:06] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
+[02:28:06] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[02:28:06] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[02:28:06] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
+[02:28:07] [Server thread/INFO]: Preparing level "RjsMc_Hub"
+[02:28:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:28:08] [Server thread/INFO]: Time elapsed: 3 ms
+[02:28:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[02:28:08] [Server thread/INFO]: Preparing spawn area: 100%
+[02:28:08] [Server thread/INFO]: Preparing spawn area: 100%
+[02:28:08] [Server thread/INFO]: Time elapsed: 542 ms
+[02:28:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[02:28:08] [Server thread/INFO]: Preparing spawn area: 100%
+[02:28:08] [Server thread/INFO]: Time elapsed: 38 ms
+[02:28:08] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.0
+[02:28:09] [Server thread/INFO]: Preparing start region for dimension minecraft:nikoworld_the_end
+[02:28:09] [Server thread/INFO]: Preparing spawn area: 0%
+[02:28:09] [Server thread/INFO]: Time elapsed: 60 ms
+[02:28:09] [Server thread/INFO]: Preparing start region for dimension minecraft:murderrun
+[02:28:09] [Server thread/INFO]: Preparing spawn area: 0%
+[02:28:09] [Server thread/INFO]: Time elapsed: 84 ms
+[02:28:09] [Server thread/INFO]: Preparing start region for dimension minecraft:nikoworld
+[02:28:09] [Server thread/INFO]: Preparing spawn area: 0%
+[02:28:09] [Server thread/INFO]: Time elapsed: 308 ms
+[02:28:09] [Server thread/INFO]: Preparing start region for dimension minecraft:nikoworld_nether
+[02:28:09] [Server thread/INFO]: Preparing spawn area: 0%
+[02:28:10] [Server thread/INFO]: Time elapsed: 204 ms
+[02:28:10] [Server thread/INFO]: [Multiverse-Core] Loading anchor:  'Hub'...
+[02:28:10] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[02:28:10] [Server thread/INFO]: [Multiverse-Core] Version 5.3.0 (API v5.3) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[02:28:10] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[02:28:10] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[02:28:10] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[02:28:10] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[02:28:10] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[02:28:10] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[02:28:10] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[02:28:10] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[02:28:10] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[02:28:10] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[02:28:10] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[02:28:10] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[02:28:10] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[02:28:10] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[02:28:10] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[02:28:10] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[02:28:10] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[02:28:10] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[02:28:10] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[02:28:10] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[02:28:10] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[02:28:10] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[02:28:10] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[02:28:10] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[02:28:10] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[02:28:11] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[02:28:11] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[02:28:11] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[02:28:11] [Server thread/INFO]: [Essentials] Using locale en_US
+[02:28:11] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[02:28:11] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[02:28:11] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[02:28:11] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[02:28:11] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v5.1.0
+[02:28:11] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
+[02:28:11] [Server thread/INFO]: [Multiverse-Portals] Found WorldEdit. Using it for selections.
+[02:28:11] [Server thread/INFO]: [Multiverse-Portals 5.1.0]  Enabled - By Rigby, fernferret and benwoo1110
+[02:28:11] [Server thread/INFO]: [TAB] Enabling TAB v5.3.2
+[02:28:11] [Server thread/INFO]: [TAB] Enabled in 210ms
+[02:28:11] [Server thread/INFO]: [DiscordSRV] Enabling DiscordSRV v1.30.1
+[02:28:11] [Server thread/INFO]: [AxiomPaper] Enabling AxiomPaper v5.0.1+1.21.8
+[02:28:12] [Server thread/INFO]: [Multiverse-SignPortals] Enabling Multiverse-SignPortals v5.0.1
+[02:28:12] [Server thread/INFO]: [Multiverse-SignPortals 5.0.1]  Enabled - By Rigby and fernferret
+[02:28:12] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v5.0.3
+[02:28:12] [Server thread/INFO]: [Multiverse-NetherPortals 5.0.3]  Enabled - By Rigby, fernferret and benwoo1110
+[02:28:12] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.2.0
+[02:28:12] [pool-31-thread-1/INFO]: [DiscordSRV] DiscordSRV is up-to-date. (1cc66c00dd0d091057d8a04adf1cc0714d8391ad)
+[02:28:12] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
+[02:28:12] [Server thread/INFO]: [Multiverse-Inventories] Version 5.2.0 (API v5.2) Enabled - By dumptruckman and benwoo1110
+[02:28:12] [Server thread/INFO]: [CommandPanels] Enabling CommandPanels v4.1.1
+[02:28:12] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v4.1.1 Plugin Loading...
+[02:28:12] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v4.1.1 Plugin Loaded!
+[02:28:12] [DiscordSRV - Initialization/INFO]: [DiscordSRV] [JDA] Login Successful!
+[02:28:12] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Connected to WebSocket
+[02:28:13] [Server thread/INFO]: [spark] Starting background profiler...
+[02:28:13] [Server thread/INFO]: Done preparing level "RjsMc_Hub" (5.585s)
+[02:28:13] [Server thread/INFO]: Running delayed init tasks
+[02:28:13] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[02:28:13] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[02:28:13] [Server thread/INFO]: Done (17.728s)! For help, type "help"
+[02:28:13] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] Checking for Updates ... 
+[02:28:13] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] No new version available
+[02:28:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] [JDA] Finished Loading!
+[02:28:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Console channel ID was invalid, not forwarding console output
+[02:28:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling Essentials hook
+[02:28:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling LuckPerms hook
+[02:28:14] [DiscordSRV - Initialization/INFO]: [DiscordSRV] Enabling Multiverse-Core hook
+[02:28:14] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:rjsmc_mineworld(1427233685442400379) because the bot does not have the "Manage Channels" permission
+[02:28:15] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 3/3 guilds (0 cancelled)
+[02:28:22] [User Authenticator #0/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
+[02:28:22] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, DiscordSRV, Essentials]
+[02:28:22] [Server thread/INFO]: RjsMc joined the game
+[02:28:22] [Server thread/INFO]: RjsMc[/96.231.192.233:55692] logged in with entity id 338 at ([RjsMc_Hub]8.399175829286065, -9.0, 8.56673062750721)
+[02:28:26] [Async Chat Thread - #1/INFO]: [Hub] <RjsMc> testing
+[02:28:30] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | owner] Matthew Antolick > testing
+[02:28:46] [Server thread/INFO]: RjsMc issued server command: /msg RjsMc hi
+[02:29:00] [Server thread/INFO]: RjsMc issued server command: /discord broadcast RjsMc hai
+[02:29:05] [Server thread/INFO]: RjsMc issued server command: /discord broadcast RjsMc RjsMc RjsMc
+[02:30:00] [Server thread/INFO]: RjsMc lost connection: Disconnected
+[02:30:00] [Server thread/INFO]: RjsMc left the game
+[02:30:21] [User Authenticator #1/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
+[02:30:22] [Server thread/INFO]: RjsMc joined the game
+[02:30:22] [Server thread/INFO]: RjsMc[/96.231.192.233:56979] logged in with entity id 339 at ([RjsMc_Hub]8.399175829286065, -9.0, 8.56673062750721)
+[02:30:24] [Async Chat Thread - #2/INFO]: [Hub] <RjsMc> @rjsmc
+[02:30:29] [Async Chat Thread - #2/INFO]: [Hub] <RjsMc> @RjsMc#3705
+[02:31:36] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | owner] Matthew Antolick > can you see this
+[02:31:37] [Async Chat Thread - #4/INFO]: [Hub] <RjsMc> yes
+[02:32:16] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord | owner] Matthew Antolick (replying to rjsmc_bot) > bruh
+[02:37:56] [Server thread/INFO]: RjsMc issued server command: /discordsrv reload
+[02:37:57] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 3/3 guilds (0 cancelled)
+[02:38:00] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [<cyan>Discord</cyan>]</gray] <silver>'<'</silver>Matthew Antolick<silver>'>' test
+[02:38:07] [Async Chat Thread - #6/INFO]: [Hub] <RjsMc> test
+[02:38:10] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [<cyan>Discord</cyan>]</gray] <silver>'<'</silver>Matthew Antolick <gold> ➤ </gold><aqua>rjsmc_bot</aqua><silver>'>' indeed
+[02:38:14] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:rjsmc_mineworld(1427233685442400379) because the bot does not have the "Manage Channels" permission
+[02:42:33] [Server thread/INFO]: RjsMc issued server command: /discordsrv reload
+[02:42:33] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 3/3 guilds (0 cancelled)
+[02:42:34] [Async Chat Thread - #8/INFO]: [Hub] <RjsMc> test
+[02:42:36] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] <Matthew Antolick > rjsmc_bot> test
+[02:42:37] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] <Matthew Antolick> test
+[02:43:15] [Server thread/INFO]: RjsMc issued server command: /plugins
+[02:45:19] [Server thread/INFO]: RjsMc issued server command: /reload
+[02:45:19] [Server thread/INFO]: [RjsMc: Reloading!]
+[02:45:19] [Server thread/INFO]: Loaded 1407 recipes
+[02:45:19] [Server thread/INFO]: Loaded 1520 advancements
+[02:45:24] [Server thread/INFO]: RjsMc issued server command: /discordsrv reload
+[02:45:24] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 3/3 guilds (0 cancelled)
+[02:45:26] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Matthew Antolick: test
+[02:45:34] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Matthew Antolick > Matthew Antolick: indeed i am testing
+[02:45:43] [Async Chat Thread - #10/INFO]: [Hub] <RjsMc> gbur
+[02:46:14] [Server thread/INFO]: RjsMc issued server command: /discordsrv reload
+[02:46:15] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 3/3 guilds (0 cancelled)
+[02:46:18] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Matthew Antolick > Matthew Antolick: yes
+[02:46:48] [Server thread/INFO]: RjsMc issued server command: /plugins
+[02:47:13] [Server thread/INFO]: RjsMc issued server command: /lp group default setdisplayname Member
+[02:47:13] [luckperms-command-executor/INFO]: [LP] LOG > (RjsMc) [G] (default)
+[02:47:13] [luckperms-command-executor/INFO]: [LP] LOG > setdisplayname Member
+[02:47:26] [Server thread/INFO]: RjsMc issued server command: /lp group default meta addprefix member
+[02:47:33] [Server thread/INFO]: RjsMc issued server command: /lp group default meta addprefix 10 prefixlel
+[02:47:33] [luckperms-command-executor/INFO]: [LP] LOG > (RjsMc) [G] (default)
+[02:47:33] [luckperms-command-executor/INFO]: [LP] LOG > meta addprefix 10 prefixlel
+[02:47:34] [Async Chat Thread - #12/INFO]: [Hub] <RjsMc> test
+[02:48:14] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:rjsmc_mineworld(1427233685442400379) because the bot does not have the "Manage Channels" permission
+[02:50:26] [Server thread/INFO]: RjsMc issued server command: /discordsrv reload
+[02:50:26] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 3/3 guilds (0 cancelled)
+[02:50:27] [Async Chat Thread - #14/INFO]: [Hub] <RjsMc> test
+[02:50:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Matthew Antolick: im speaking to you @Matthew Antolick
+[02:51:27] [Server thread/INFO]: RjsMc issued server command: /discordsrv reload
+[02:51:27] [DiscordSRV - JDA Callback 0/INFO]: [DiscordSRV] Cleared all pre-existing slash commands in 3/3 guilds (0 cancelled)
+[02:51:31] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Matthew Antolick: indeed i am
+[02:51:42] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Matthew Antolick > Matthew Antolick: last one
+[02:52:07] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] RjsMc > rjsmc_bot: reply to bot
+[02:53:47] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Case: Anything
+[02:53:51] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Case: Something
+[02:53:51] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Fish: anything
+[02:53:56] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Fish: hi casey
+[02:53:59] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Fish: hiii
+[02:54:08] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Fish > Case: freakbob
+[02:54:15] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Case > Fish: Hello Angela Juliana Rangel
+[02:54:22] [Async Chat Thread - #16/INFO]: [Hub] <RjsMc> hai guys
+[02:54:27] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Fish: why am i being outed
+[02:54:44] [Server thread/INFO]: RjsMc issued server command: /luckperms group default
+[02:54:46] [Server thread/INFO]: RjsMc issued server command: /luckperms group default meta
+[02:54:51] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Case: Richard Jedi Suwanto
+[02:54:58] [Server thread/INFO]: RjsMc issued server command: /luckperms group default info
+[02:55:20] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Case: You're wearing my skin
+[02:55:23] [Async Chat Thread - #18/INFO]: [Hub] <RjsMc> I can respond like this
+[02:55:24] [Async Chat Thread - #18/INFO]: [Hub] <RjsMc> AYE
+[02:55:25] [Async Chat Thread - #18/INFO]: [Hub] <RjsMc> NO
+[02:55:25] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Fish: Richard is stinky
+[02:55:29] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Fish: Ewwww
+[02:55:29] [Async Chat Thread - #18/INFO]: [Hub] <RjsMc> aight nvm kys
+[02:55:36] [Server thread/INFO]: RjsMc issued server command: /mv tp MurderRun
+[02:55:37] [Async Chat Thread - #18/INFO]: [MurderRun] <RjsMc> bleh
+[02:55:38] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Fish: I can smell him through Minecraft
+[02:55:43] [Async Chat Thread - #18/INFO]: [MurderRun] <RjsMc> OKAYYY
+[02:55:44] [Server thread/INFO]: RjsMc issued server command: /hub
+[02:55:54] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Case: The poop isn't coming out guys
+[02:56:02] [Async Chat Thread - #18/INFO]: [Hub] <RjsMc> wait are you listening to us while pooping lmao
+[02:56:06] [Async Chat Thread - #18/INFO]: [Hub] <RjsMc> LMAO UR DELETED MESSAGE IS STILL HERE
+[02:56:16] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Case: LMAOO
+[02:56:23] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Case: Check VC chat
+[02:58:14] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:rjsmc_mineworld(1427233685442400379) because the bot does not have the "Manage Channels" permission
+[03:00:50] [Server thread/INFO]: RjsMc issued server command: /itemdb
+[03:00:56] [Server thread/INFO]: RjsMc issued server command: /itemdb blue_paint
+[03:01:02] [Server thread/INFO]: RjsMc issued server command: /itemdb bluepaint
+[03:01:05] [Server thread/INFO]: RjsMc issued server command: /itemdb bluepaint
+[03:01:07] [Server thread/INFO]: RjsMc issued server command: /give RjsMc bluepaint
+[03:01:35] [Async Chat Thread - #20/INFO]: [Hub] <RjsMc> t
+[03:02:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Fish: Yo
+[03:04:43] [Server thread/INFO]: RjsMc issued server command: /plugins
+[03:05:05] [Server thread/INFO]: RjsMc issued server command: /tab:tab mysql
+[03:05:15] [Server thread/INFO]: RjsMc issued server command: /tab bossbar
+[03:05:18] [Server thread/INFO]: RjsMc issued server command: /tab bossbar on
+[03:05:20] [Server thread/INFO]: RjsMc issued server command: /tab bossbar toggle
+[03:05:30] [Async Chat Thread - #22/INFO]: [Hub] <RjsMc> test
+[03:05:50] [Server thread/INFO]: RjsMc issued server command: /mv config enable-chat-prefix false
+[03:05:51] [Async Chat Thread - #22/INFO]: <RjsMc> test
+[03:06:16] [Server thread/INFO]: RjsMc issued server command: /luckperms user RjsMc info
+[03:06:29] [Server thread/INFO]: RjsMc issued server command: /luckperms group default meta removeprefix
+[03:06:31] [Server thread/INFO]: RjsMc issued server command: /luckperms group default meta removeprefix 1
+[03:06:31] [luckperms-command-executor/INFO]: [LP] LOG > (RjsMc) [G] (default)
+[03:06:31] [luckperms-command-executor/INFO]: [LP] LOG > meta removeprefix 1 *
+[03:06:33] [Server thread/INFO]: RjsMc issued server command: /luckperms group default meta removeprefix 2
+[03:06:33] [luckperms-command-executor/INFO]: [LP] LOG > (RjsMc) [G] (default)
+[03:06:33] [luckperms-command-executor/INFO]: [LP] LOG > meta removeprefix 2 *
+[03:06:34] [Server thread/INFO]: RjsMc issued server command: /luckperms group default meta removeprefix 3
+[03:06:34] [luckperms-command-executor/INFO]: [LP] LOG > (RjsMc) [G] (default)
+[03:06:34] [luckperms-command-executor/INFO]: [LP] LOG > meta removeprefix 3 *
+[03:06:45] [Server thread/INFO]: RjsMc issued server command: /luckperms group default meta addprefix 10 "[TEST]"
+[03:06:45] [luckperms-command-executor/INFO]: [LP] LOG > (RjsMc) [G] (default)
+[03:06:45] [luckperms-command-executor/INFO]: [LP] LOG > meta addprefix 10 [TEST]
+[03:06:45] [Async Chat Thread - #22/INFO]: <RjsMc> test
+[03:07:01] [Server thread/INFO]: RjsMc issued server command: /luckperms group default setdisplayname &7Mmeber
+[03:07:01] [luckperms-command-executor/INFO]: [LP] LOG > (RjsMc) [G] (default)
+[03:07:01] [luckperms-command-executor/INFO]: [LP] LOG > setdisplayname &7Mmeber
+[03:07:04] [Server thread/INFO]: RjsMc issued server command: /luckperms group default setdisplayname Member
+[03:07:04] [luckperms-command-executor/INFO]: [LP] LOG > (RjsMc) [G] (default)
+[03:07:04] [luckperms-command-executor/INFO]: [LP] LOG > setdisplayname Member
+[03:07:05] [Async Chat Thread - #22/INFO]: <RjsMc> test
+[03:07:07] [Server thread/INFO]: RjsMc issued server command: /vault
+[03:07:09] [Server thread/INFO]: RjsMc issued server command: /vault-convert
+[03:07:12] [Server thread/INFO]: RjsMc issued server command: /vault
+[03:07:39] [Server thread/INFO]: RjsMc issued server command: /lp user RjsMc meta info
+[03:07:46] [Server thread/INFO]: RjsMc issued server command: /luckperms group default meta removeprefix 10
+[03:07:46] [luckperms-command-executor/INFO]: [LP] LOG > (RjsMc) [G] (default)
+[03:07:46] [luckperms-command-executor/INFO]: [LP] LOG > meta removeprefix 10 *
+[03:07:47] [Server thread/INFO]: RjsMc issued server command: /lp user RjsMc meta info
+[03:07:56] [Server thread/INFO]: RjsMc issued server command: /luckperms group default meta addprefix 10 "[TEST]"
+[03:07:56] [luckperms-command-executor/INFO]: [LP] LOG > (RjsMc) [G] (default)
+[03:07:56] [luckperms-command-executor/INFO]: [LP] LOG > meta addprefix 10 [TEST]
+[03:07:57] [Async Chat Thread - #22/INFO]: <RjsMc> test
+[03:08:06] [Server thread/INFO]: RjsMc issued server command: /lp group default meta info
+[03:08:14] [DiscordSRV - Channel Topic Updater/WARN]: [DiscordSRV] Could not set topic of channel TC:rjsmc_mineworld(1427233685442400379) because the bot does not have the "Manage Channels" permission
