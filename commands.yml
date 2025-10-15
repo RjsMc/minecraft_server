@@ -15,4 +15,3 @@ aliases:
   - version $1-
   hub:
   - multiverse-core:mvtp a:Hub
-  - tellraw @s [{"text":"Teleporting to the ","color":"white"},{"text":"Hub","color":"aqua","bold":true}]
