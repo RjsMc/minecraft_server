@@ -293,3 +293,23 @@
 [05:02:59] [Server thread/INFO]: RjsMc lost connection: Disconnected
 [05:02:59] [Server thread/INFO]: RjsMc left the game
 [05:03:36] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] RjsMc: ls
+[10:00:55] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] ok im tired of being matthew now: omg u figured out how to do it???
+[10:32:03] [Craft Scheduler Thread - 30 - Vault/INFO]: [Vault] Checking for Updates ... 
+[10:32:03] [Craft Scheduler Thread - 30 - Vault/INFO]: [Vault] No new version available
+[10:49:41] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Case: That's a lot of tests
+[10:51:12] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] doors: Hi
+[10:52:23] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Case: Hi
+[14:32:23] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] RjsMc > ok im tired of being matthew now: Yeah :3
+[14:32:45] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] Fish: Hi
+[14:52:14] [JDA MainWS-ReadThread/INFO]: [DiscordSRV] Chat: [Discord] ok im tired of being matthew now: yay!
+[16:32:03] [Craft Scheduler Thread - 31 - Vault/INFO]: [Vault] Checking for Updates ... 
+[16:32:03] [Craft Scheduler Thread - 31 - Vault/INFO]: [Vault] No new version available
+[17:44:24] [Paper Async Task Handler Thread - 0/INFO]: [⚡] TPS from last 5s, 10s, 1m, 5m, 15m:
+[17:44:24] [Paper Async Task Handler Thread - 0/INFO]: [⚡]  *20.0, *20.0, *20.0, *20.0, *20.0
+[17:44:24] [Paper Async Task Handler Thread - 0/INFO]: [⚡] 
+[17:44:24] [Paper Async Task Handler Thread - 0/INFO]: [⚡] Tick durations (min/med/95%ile/max ms) from last 10s, 1m:
+[17:44:24] [Paper Async Task Handler Thread - 0/INFO]: [⚡]  0.6/1.5/2.2/4.1;  0.4/1.4/2.1/4.1
+[17:44:24] [Paper Async Task Handler Thread - 0/INFO]: [⚡] 
+[17:44:24] [Paper Async Task Handler Thread - 0/INFO]: [⚡] CPU usage from last 10s, 1m, 15m:
+[17:44:24] [Paper Async Task Handler Thread - 0/INFO]: [⚡]  0%, 0%, 0%  (system)
+[17:44:24] [Paper Async Task Handler Thread - 0/INFO]: [⚡]  0%, 0%, 0%  (process)
