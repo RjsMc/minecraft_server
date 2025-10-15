@@ -33,12 +33,16 @@ MyAnimation1:
 ServerName:
   change-interval: 300
   texts:
-  - '&c&lServerName'
-  - '&c&n&lServerName'
-  - '&b&lServerName'
-  - '&b&l&nServerName'
-  - '&e&lServerName'
-  - '&e&n&lServerName'
+  - '&b&lR&3&ljserverMc'
+  - '&3&lR&b&lj&3&lserverMc'
+  - '&3&lRj&b&ls&3&lerverMc'
+  - '&3&lRjs&b&le&3&lrverMc'
+  - '&3&lRjse&b&lr&3&lverMc'
+  - '&3&lRjser&b&lv&3&lerMc'
+  - '&3&lRjserv&b&le&3&lrMc'
+  - '&3&lRjserve&b&lr&3&lMc'
+  - '&3&lRjserver&b&lM&3&lc'
+  - '&3&lRjserverM&b&lc'
 web:
   change-interval: 200
   texts:

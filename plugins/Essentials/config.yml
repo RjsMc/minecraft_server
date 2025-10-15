@@ -34,7 +34,7 @@ ops-name-color: 'none'
 nickname-prefix: ''
 
 # The maximum length allowed in nicknames. The nickname prefix is not included in this.
-max-nick-length: 30
+max-nick-length: 15
 
 # The regex pattern used to determine if a requested nickname should be allowed for use.
 # If the requested nickname does not match this pattern, the nickname will be rejected.
@@ -951,7 +951,6 @@ chat:
   # Note: The {DISPLAYNAME} placeholder includes {PREFIX} and {SUFFIX} by default.
   # Using these together may result in double prefixes/suffixes in chat.
 
-  format: '<{DISPLAYNAME}> {MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
   #format: '&7{PREFIX}&r {NICKNAME}&r &7{SUFFIX}&r: {MESSAGE}'
 
@@ -966,8 +965,8 @@ chat:
   # Note: Group names are case-sensitive, so you must match them up with your permissions plugin.
   # Note: If a LuckPerms group display name (alias) is set, you must use it instead of the original group name.
   group-formats:
-    #default: '{WORLDNAME} {DISPLAYNAME}&7:&r {MESSAGE}'
-    #admins: '{WORLDNAME} &c[{GROUP}]&r {DISPLAYNAME}&7:&c {MESSAGE}'
+    default: '&8[{WORLDNAME}&8] &b{USERNAME}&7:&r {MESSAGE}'
+    rjsmc: '&8[{WORLDNAME}&8] &e✦ &b{USERNAME}&7:&3 {MESSAGE}'
 
     # You can also specify a format for each type of chat for each group.
     #admins:
@@ -977,6 +976,8 @@ chat:
   # World aliases allow you to replace the world name with something different in the chat format.
   # If using world aliases, remove the # to activate the setting.
   world-aliases:
+    RjsMc_Hub: "&bHub&r"
+    MurderRun: "&cMRun&r"
     #plots: "&dP&r"
     #creative: "&eC&r"
 

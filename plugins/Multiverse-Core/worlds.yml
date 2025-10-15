@@ -1,6 +1,6 @@
 MurderRun:
   adjust-spawn: true
-  alias: ''
+  alias: '&cMRunLobby'
   allow-advancement-grant: true
   allow-flight: false
   allow-weather: true

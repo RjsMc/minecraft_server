@@ -172,7 +172,7 @@ messaging:
   
   # This config option defines the format Multiverse should use when prefixing the chat with the world name.
   # This only applies if enable-chat-prefix is set to true.
-  chat-prefix-format: '&8[%world%&8] &7%chat%'
+  chat-prefix-format: ''
   
   # This config option defines whether or not Multiverse should register the PlaceholderAPI hook.
   # This only applies if PlaceholderAPI is installed.
