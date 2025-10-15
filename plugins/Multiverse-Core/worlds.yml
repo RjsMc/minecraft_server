@@ -33,7 +33,12 @@ MurderRun:
     z: 8.516053200710754
     pitch: 0.027695827
     yaw: 0.022815786
-  spawning: {}
+  spawning:
+    misc:
+      spawn: true
+      tick-rate: -1
+      spawn-limit: -1
+      exceptions: []
   world-blacklist: []
   version: 1.2
 NikoWorld:

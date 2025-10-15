@@ -38,7 +38,9 @@ share-handling:
   
   # You must specify optional shares you wish to use here or they will be ignored.
   # Built-in optional shares are: "economy" and "last_location".
-  active-optional-shares: []
+  active-optional-shares:
+  - last_location
+  - recipes
   
   
 sharables:
