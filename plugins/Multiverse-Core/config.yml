@@ -23,7 +23,7 @@ world:
   # When enabled, Multiverse will automatically import default worlds defined in the server.properties
   # `level-name` property when the Multiverse is enabled or reloaded. This will include the nether and 
   # end if the server created them.
-  auto-import-default-worlds: true
+  auto-import-default-worlds: false
   
   # When enabled, Multiverse will import all other worlds created by other plugins when Multiverse starts
   # or when Multiverse is reloaded.
@@ -172,7 +172,7 @@ messaging:
   
   # This config option defines the format Multiverse should use when prefixing the chat with the world name.
   # This only applies if enable-chat-prefix is set to true.
-  chat-prefix-format: '[%world%]%chat%'
+  chat-prefix-format: '&8[%world%&8] &7%chat%'
   
   # This config option defines whether or not Multiverse should register the PlaceholderAPI hook.
   # This only applies if PlaceholderAPI is installed.

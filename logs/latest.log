@@ -1,75 +1,446 @@
-[20:22:57] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-LTS; Red Hat, Inc. (Red_Hat-21.0.8.0.9-1)) on Linux 5.14.0-621.el9.x86_64 (amd64)
-[20:22:57] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) for Minecraft 1.21.8
-[20:22:57] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[20:22:57] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
-[20:22:57] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+[21:09:06] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-LTS; Red Hat, Inc. (Red_Hat-21.0.8.0.9-1)) on Linux 5.14.0-621.el9.x86_64 (amd64)
+[21:09:06] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) for Minecraft 1.21.8
+[21:09:06] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:09:07] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/Vault.jar'...
+[21:09:07] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Vault.jar' in 398ms.
+[21:09:08] [ServerMain/INFO]: [PluginInitializerManager] Initialized 9 plugins
+[21:09:08] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
  - CommandPanels (4.1.1)
-[20:22:57] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
- - LuckPerms (5.5.17), Multiverse-Core (5.3.0)
-[20:23:01] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:23:03] [ServerMain/INFO]: Loaded 1407 recipes
-[20:23:03] [ServerMain/INFO]: Loaded 1520 advancements
-[20:23:03] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[20:23:03] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 290.2ms
-[20:23:03] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[20:23:03] [Server thread/INFO]: Loading properties
-[20:23:03] [Server thread/INFO]: This server is running Paper version 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[20:23:03] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[20:23:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:23:03] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:23:04] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
-[20:23:04] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[20:23:04] [Server thread/INFO]: Default game type: SURVIVAL
-[20:23:04] [Server thread/INFO]: Generating keypair
-[20:23:04] [Server thread/INFO]: Starting Minecraft server on *:25565
-[20:23:04] [Server thread/INFO]: Using epoll channel type
-[20:23:04] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[20:23:04] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
-[20:23:04] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.0
-[20:23:04] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.17
-[20:23:04] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[20:23:04] [Server thread/INFO]: [CommandPanels] Loading server plugin CommandPanels v4.1.1
-[20:23:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:23:05] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.17
-[20:23:05] [Server thread/INFO]:         __    
-[20:23:05] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.17
-[20:23:05] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[20:23:05] [Server thread/INFO]: 
-[20:23:05] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[20:23:05] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[20:23:05] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[20:23:05] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 697ms)
-[20:23:05] [Server thread/INFO]: Preparing level "hub"
-[20:23:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:23:06] [Server thread/INFO]: Preparing spawn area: 0%
-[20:23:06] [Server thread/INFO]: Time elapsed: 298 ms
-[20:23:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:23:06] [Server thread/INFO]: Preparing spawn area: 0%
-[20:23:06] [Server thread/INFO]: Time elapsed: 426 ms
-[20:23:06] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:23:06] [Server thread/INFO]: Preparing spawn area: 0%
-[20:23:06] [Server thread/INFO]: Time elapsed: 46 ms
-[20:23:06] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.0
-[20:23:07] [Server thread/ERROR]: [Multiverse-Core] Failed to load world world: Failure{reason=WORLD_FOLDER_INVALID}
-[20:23:07] [Server thread/INFO]: [Multiverse-Core] API service loaded!
-[20:23:07] [Server thread/INFO]: [Multiverse-Core] Version 5.3.0 (API v5.3) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
-[20:23:07] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
-[20:23:07] [Server thread/INFO]: [CommandPanels] Enabling CommandPanels v4.1.1
-[20:23:07] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v4.1.1 Plugin Loading...
-[20:23:07] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v4.1.1 Plugin Loaded!
-[20:23:07] [Server thread/INFO]: [spark] Starting background profiler...
-[20:23:08] [Server thread/INFO]: Done preparing level "hub" (2.447s)
-[20:23:08] [Server thread/INFO]: Running delayed init tasks
-[20:23:08] [Server thread/INFO]: Done (11.706s)! For help, type "help"
-[20:23:18] [Server thread/INFO]: RjsMc (/96.231.192.233:56423) lost connection: Disconnected
-[20:23:21] [User Authenticator #0/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
-[20:23:21] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms]
-[20:23:21] [Server thread/INFO]: RjsMc joined the game
-[20:23:21] [Server thread/INFO]: RjsMc[/96.231.192.233:63118] logged in with entity id 14 at ([hub]-3.5, -60.0, 6.5)
-[20:23:25] [Server thread/INFO]: RjsMc issued server command: /gamemode creative
-[20:23:25] [Server thread/INFO]: [RjsMc: Set own game mode to Creative Mode]
-[20:23:30] [Server thread/INFO]: RjsMc issued server command: /mv check
-[20:23:32] [Server thread/INFO]: RjsMc issued server command: /mv check RjsMc
-[20:23:36] [Server thread/INFO]: RjsMc issued server command: /mv check RjsMc e:hub:
-[20:23:38] [Server thread/INFO]: RjsMc issued server command: /mv check RjsMc e:hub:-4.31,-57.84,6.24
-[20:23:40] [Server thread/INFO]: RjsMc issued server command: /mv check RjsMc e:hub:-4.31,-57.84,6.24
+[21:09:08] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (8):
+ - Essentials (2.21.2), LuckPerms (5.5.17), Multiverse-Core (5.3.0), Multiverse-Inventories (5.2.0), Multiverse-NetherPortals (5.0.3), Multiverse-Portals (5.1.0), Multiverse-SignPortals (5.0.1), Vault (1.7.3-b131)
+[21:09:12] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[21:09:13] [ServerMain/INFO]: Loaded 1407 recipes
+[21:09:13] [ServerMain/INFO]: Loaded 1520 advancements
+[21:09:13] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[21:09:13] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 296.0ms
+[21:09:13] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[21:09:13] [Server thread/INFO]: Loading properties
+[21:09:13] [Server thread/INFO]: This server is running Paper version 1.21.8-60-main@29c8822 (2025-09-06T21:49:13Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[21:09:13] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:09:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:09:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:09:14] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[21:09:14] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[21:09:14] [Server thread/INFO]: Default game type: SURVIVAL
+[21:09:14] [Server thread/INFO]: Generating keypair
+[21:09:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:09:14] [Server thread/INFO]: Using epoll channel type
+[21:09:14] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:09:14] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[21:09:14] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.17
+[21:09:15] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[21:09:15] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[21:09:15] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.0
+[21:09:15] [Server thread/INFO]: [Multiverse-Portals] Loading server plugin Multiverse-Portals v5.1.0
+[21:09:15] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
+[21:09:15] [Server thread/INFO]: [Multiverse-SignPortals] Loading server plugin Multiverse-SignPortals v5.0.1
+[21:09:15] [Server thread/INFO]: [Multiverse-NetherPortals] Loading server plugin Multiverse-NetherPortals v5.0.3
+[21:09:15] [Server thread/INFO]: [Multiverse-Inventories] Loading server plugin Multiverse-Inventories v5.2.0
+[21:09:15] [Server thread/INFO]: [CommandPanels] Loading server plugin CommandPanels v4.1.1
+[21:09:15] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:09:15] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.17
+[21:09:15] [Server thread/INFO]:         __    
+[21:09:15] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.17
+[21:09:15] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[21:09:15] [Server thread/INFO]: 
+[21:09:15] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[21:09:16] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[21:09:16] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[21:09:16] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1053ms)
+[21:09:16] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[21:09:16] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[21:09:16] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[21:09:16] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[21:09:16] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[21:09:16] [Server thread/INFO]: Preparing level "hub"
+[21:09:16] [Server thread/ERROR]: No key layers in MapLike[{}]
+[21:09:17] [Server thread/ERROR]: No key layers in MapLike[{}]
+[21:09:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:09:17] [Server thread/INFO]: Preparing spawn area: 0%
+[21:09:17] [Server thread/INFO]: Time elapsed: 118 ms
+[21:09:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:09:18] [Server thread/INFO]: Preparing spawn area: 2%
+[21:09:18] [Server thread/INFO]: Preparing spawn area: 18%
+[21:09:18] [Server thread/INFO]: Time elapsed: 945 ms
+[21:09:18] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:09:18] [Server thread/INFO]: Preparing spawn area: 2%
+[21:09:19] [Server thread/INFO]: Time elapsed: 133 ms
+[21:09:19] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.0
+[21:09:19] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+[21:09:19] [Server thread/WARN]: [Multiverse-Core] Original Location: X: 0 Y: 66 Z: 0 P: 0 Y: 0 
+[21:09:19] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'hub_nether' is located at: hub_nether:0.50,66.00,2.50:0.00:0.00
+[21:09:19] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[21:09:19] [Server thread/INFO]: [Multiverse-Core] Version 5.3.0 (API v5.3) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[21:09:19] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[21:09:19] [Server thread/INFO]: [Multiverse-Portals] Enabling Multiverse-Portals v5.1.0
+[21:09:20] [Server thread/INFO]: [Multiverse-Portals] 0 - Portals(s) loaded
+[21:09:20] [Server thread/INFO]: [Multiverse-Portals 5.1.0]  Enabled - By Rigby, fernferret and benwoo1110
+[21:09:20] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[21:09:20] [Server thread/WARN]: [Essentials] Beginning Adventure locale file conversion.
+[21:09:20] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/config.yml
+[21:09:20] [Server thread/WARN]: [Essentials] Missing userdata folder, aborting
+[21:09:20] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/kits.yml
+[21:09:20] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[21:09:20] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[21:09:20] [Server thread/INFO]: [Essentials] Starting Essentials ban format conversion
+[21:09:20] [Server thread/INFO]: [Essentials] Attempting to migrate ignore list to UUIDs
+[21:09:20] [Server thread/INFO]: [Essentials] Attempting to migrate legacy userdata keys to Configurate
+[21:09:20] [Server thread/INFO]: [Essentials] Done converting random teleport config.
+[21:09:20] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/worth.yml
+[21:09:20] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[21:09:20] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[21:09:20] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[21:09:20] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[21:09:20] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[21:09:20] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[21:09:20] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[21:09:20] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[21:09:20] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[21:09:20] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[21:09:20] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[21:09:20] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[21:09:20] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[21:09:20] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[21:09:20] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[21:09:20] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[21:09:20] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[21:09:20] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[21:09:20] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[21:09:20] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[21:09:20] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[21:09:20] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[21:09:20] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[21:09:20] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/tpr.yml
+[21:09:20] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[21:09:20] [Server thread/INFO]: [Essentials] Creating config from template: plugins/Essentials/custom_items.yml
+[21:09:20] [Server thread/INFO]: [Essentials] Using locale en_US
+[21:09:20] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[21:09:20] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[21:09:20] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[21:09:20] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[21:09:20] [Server thread/INFO]: [Multiverse-SignPortals] Enabling Multiverse-SignPortals v5.0.1
+[21:09:20] [Server thread/INFO]: [Multiverse-SignPortals 5.0.1]  Enabled - By Rigby and fernferret
+[21:09:20] [Server thread/INFO]: [Multiverse-NetherPortals] Enabling Multiverse-NetherPortals v5.0.3
+[21:09:21] [Server thread/INFO]: [Multiverse-NetherPortals 5.0.3]  Enabled - By Rigby, fernferret and benwoo1110
+[21:09:21] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v5.2.0
+[21:09:21] [Server thread/INFO]: [Multiverse-Inventories] Loading player names map...
+[21:09:21] [Server thread/INFO]: [Multiverse-Inventories] Version 5.2.0 (API v5.2) Enabled - By dumptruckman and benwoo1110
+[21:09:21] [Server thread/INFO]: [CommandPanels] Enabling CommandPanels v4.1.1
+[21:09:21] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v4.1.1 Plugin Loading...
+[21:09:21] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v4.1.1 Plugin Loaded!
+[21:09:21] [Server thread/INFO]: [spark] Starting background profiler...
+[21:09:21] [Server thread/INFO]: Done preparing level "hub" (5.316s)
+[21:09:21] [Server thread/INFO]: Running delayed init tasks
+[21:09:21] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[21:09:21] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[21:09:21] [Server thread/INFO]: [Multiverse-Inventories] First run!
+[21:09:21] [Server thread/INFO]: Done (15.795s)! For help, type "help"
+[21:09:21] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] Checking for Updates ... 
+[21:09:21] [Craft Scheduler Thread - 4 - Vault/INFO]: [Vault] No new version available
+[21:09:27] [User Authenticator #0/INFO]: UUID of player RjsMc is 2ab00473-091a-46c1-80e9-d7f1b7f1485c
+[21:09:27] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, Essentials]
+[21:09:27] [Server thread/INFO]: RjsMc joined the game
+[21:09:27] [Server thread/INFO]: RjsMc[/96.231.192.233:58470] logged in with entity id 27 at ([hub]11.953574148713374, -60.0, 35.89748323081867)
+[21:09:27] [Server thread/WARN]: [Essentials] File motd.txt does not exist. Creating one for you.
+[21:09:33] [Server thread/INFO]: RjsMc issued server command: /gamemode creative
+[21:09:35] [Async Chat Thread - #1/INFO]: [Hub]<RjsMc> test
+[21:09:38] [Server thread/INFO]: RjsMc issued server command: /lp group default meta removeprefix 100
+[21:09:38] [luckperms-command-executor/INFO]: [LP] LOG > (RjsMc) [G] (default)
+[21:09:38] [luckperms-command-executor/INFO]: [LP] LOG > meta removeprefix 100 *
+[21:09:41] [Server thread/INFO]: RjsMc issued server command: /lp group default list
+[21:09:44] [Server thread/INFO]: RjsMc issued server command: /lp group default info
+[21:09:48] [Server thread/INFO]: RjsMc issued server command: /lp user RjsMc meta info
+[21:10:00] [Server thread/INFO]: RjsMc issued server command: /plugins
+[21:11:07] [Server thread/INFO]: RjsMc issued server command: /essentials commands
+[21:13:19] [Server thread/INFO]: RjsMc issued server command: /bal
+[21:13:21] [Server thread/INFO]: RjsMc issued server command: /baltop
+[21:13:45] [Async Chat Thread - #2/INFO]: [Hub]<RjsMc> tes
+[21:14:01] [Server thread/INFO]: RjsMc issued server command: /mv config chat-prefix-format
+[21:14:42] [Server thread/INFO]: RjsMc issued server command: /mv config chat-prefix-format "&8[%world%&8] %chat"
+[21:14:43] [Async Chat Thread - #2/INFO]: [Hub] %chat
+[21:14:45] [Async Chat Thread - #2/INFO]: [Hub] %chat
+[21:14:48] [Server thread/INFO]: RjsMc issued server command: /mv config chat-prefix-format "&8[%world%&8] %chat%"
+[21:14:49] [Async Chat Thread - #2/INFO]: [Hub] <RjsMc> test
+[21:14:54] [Server thread/INFO]: RjsMc issued server command: /mv config chat-prefix-format "&8[%world%&8] &7%chat%"
+[21:14:55] [Async Chat Thread - #2/INFO]: [Hub] <RjsMc> test
+[21:15:02] [Server thread/INFO]: RjsMc issued server command: /mv config chat-prefix-format "&8[%world%&8] &7%chat%"
+[21:15:03] [Async Chat Thread - #2/INFO]: [Hub] <RjsMc> test
+[21:15:31] [Server thread/INFO]: RjsMc issued server command: /luckperms group default
+[21:15:35] [Server thread/INFO]: RjsMc issued server command: /luckperms group default info
+[21:15:38] [Server thread/INFO]: RjsMc issued server command: /luckperms group default listmembers
+[21:15:49] [Server thread/INFO]: RjsMc issued server command: /luckperms creategroup RjsMc
+[21:15:49] [luckperms-command-executor/INFO]: [LP] LOG > (RjsMc) [G] (rjsmc)
+[21:15:49] [luckperms-command-executor/INFO]: [LP] LOG > create
+[21:16:02] [Server thread/INFO]: RjsMc issued server command: /luckperms group rjsmc setdisplayname RjsMc
+[21:16:02] [luckperms-command-executor/INFO]: [LP] LOG > (RjsMc) [G] (rjsmc)
+[21:16:02] [luckperms-command-executor/INFO]: [LP] LOG > setdisplayname RjsMc
+[21:16:25] [Server thread/INFO]: RjsMc issued server command: /luckperms editor
+[21:17:41] [Server thread/INFO]: RjsMc issued server command: /lp group admin permission
+[21:17:44] [Server thread/INFO]: RjsMc issued server command: /lp group rjsmc permission
+[21:17:47] [Server thread/INFO]: RjsMc issued server command: /lp group rjsmc permission info
+[21:17:53] [luckperms-worker-7/INFO]: [LP] LOG > (RjsMc) [G] (rjsmc)
+[21:17:53] [luckperms-worker-7/INFO]: [LP] LOG > webeditor add luckperms.* true
+[21:17:56] [Server thread/INFO]: RjsMc issued server command: /lp group rjsmc permission info
+[21:25:53] [Server thread/INFO]: RjsMc issued server command: /mv create
+[21:26:35] [Server thread/INFO]: RjsMc issued server command: /mv create MurderRun normal --no-structures --world-type flat
+[21:26:35] [Server thread/ERROR]: No key layers in MapLike[{}]
+[21:26:35] [Server thread/INFO]: Preparing start region for dimension minecraft:murderrun
+[21:26:35] [Server thread/INFO]: Preparing spawn area: 0%
+[21:26:36] [Server thread/INFO]: Time elapsed: 48 ms
+[21:26:39] [Server thread/INFO]: RjsMc issued server command: /mv list
+[21:26:52] [Server thread/INFO]: RjsMc issued server command: /mv config auto-import-default-worlds false
+[21:27:12] [Server thread/INFO]: RjsMc issued server command: /mvtp RjsMc MurderRun
+[21:27:22] [Async Chat Thread - #4/INFO]: [MurderRun] <RjsMc> test
+[21:27:39] [Server thread/INFO]: RjsMc issued server command: /mv config enable-chat-prefix false
+[21:28:00] [Server thread/INFO]: RjsMc issued server command: /gamerule doMobSpawning false
+[21:28:00] [Server thread/INFO]: [RjsMc: Gamerule doMobSpawning is now set to: false]
+[21:28:03] [Server thread/INFO]: RjsMc issued server command: /mv purge-all-entities
+[21:28:03] [Server thread/ERROR]: [Multiverse-Core] Failed to execute command /mv purge-all-entities purge-all-entities 
+[21:28:03] [Server thread/WARN]: java.lang.UnsupportedOperationException: Cannot remove player RjsMc, use Player#kickPlayer(String) instead.
+[21:28:03] [Server thread/WARN]: 	at org.bukkit.craftbukkit.entity.CraftPlayer.remove(CraftPlayer.java:269)
+[21:28:03] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.world.entity.EntityPurger.lambda$purgeAllEntities$3(EntityPurger.java:58)
+[21:28:03] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.vavr.control.Option.peek(Option.java:416)
+[21:28:03] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.world.entity.EntityPurger.purgeAllEntities(EntityPurger.java:56)
+[21:28:03] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.commands.PurgeAllEntitiesCommand.onPurgeAllEntitiesCommand(PurgeAllEntitiesCommand.java:45)
+[21:28:03] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[21:28:03] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[21:28:03] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.RegisteredCommand.invoke(RegisteredCommand.java:152)
+[21:28:03] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.executeCommand(BaseCommand.java:582)
+[21:28:03] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.execute(BaseCommand.java:517)
+[21:28:03] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.execute(RootCommand.java:99)
+[21:28:03] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.command.MVRootCommand.execute(MVRootCommand.java:19)
+[21:28:03] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.BukkitRootCommand.execute(BukkitRootCommand.java:84)
+[21:28:03] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
+[21:28:03] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:451)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:357)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:345)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2313)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2286)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1450)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1430)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1424)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1381)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1389)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1266)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[21:28:03] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[21:28:03] [Server thread/WARN]: java.lang.UnsupportedOperationException: Cannot remove player RjsMc, use Player#kickPlayer(String) instead.
+[21:28:03] [Server thread/WARN]: 	at org.bukkit.craftbukkit.entity.CraftPlayer.remove(CraftPlayer.java:269)
+[21:28:03] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.world.entity.EntityPurger.lambda$purgeAllEntities$3(EntityPurger.java:58)
+[21:28:03] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.vavr.control.Option.peek(Option.java:416)
+[21:28:03] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.world.entity.EntityPurger.purgeAllEntities(EntityPurger.java:56)
+[21:28:03] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.commands.PurgeAllEntitiesCommand.onPurgeAllEntitiesCommand(PurgeAllEntitiesCommand.java:45)
+[21:28:03] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[21:28:03] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[21:28:03] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.RegisteredCommand.invoke(RegisteredCommand.java:152)
+[21:28:03] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.executeCommand(BaseCommand.java:582)
+[21:28:03] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.execute(BaseCommand.java:517)
+[21:28:03] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.execute(RootCommand.java:99)
+[21:28:03] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.command.MVRootCommand.execute(MVRootCommand.java:19)
+[21:28:03] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.BukkitRootCommand.execute(BukkitRootCommand.java:84)
+[21:28:03] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
+[21:28:03] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:451)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:357)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:345)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2313)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2286)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1450)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1430)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1424)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1381)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1389)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1266)
+[21:28:03] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[21:28:03] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[21:28:06] [Server thread/INFO]: RjsMc issued server command: /mv purge-all-entities MurderRun
+[21:28:06] [Server thread/ERROR]: [Multiverse-Core] Failed to execute command /mv purge-all-entities purge-all-entities MurderRun
+[21:28:06] [Server thread/WARN]: java.lang.UnsupportedOperationException: Cannot remove player RjsMc, use Player#kickPlayer(String) instead.
+[21:28:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.entity.CraftPlayer.remove(CraftPlayer.java:269)
+[21:28:06] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.world.entity.EntityPurger.lambda$purgeAllEntities$3(EntityPurger.java:58)
+[21:28:06] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.vavr.control.Option.peek(Option.java:416)
+[21:28:06] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.world.entity.EntityPurger.purgeAllEntities(EntityPurger.java:56)
+[21:28:06] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.commands.PurgeAllEntitiesCommand.onPurgeAllEntitiesCommand(PurgeAllEntitiesCommand.java:45)
+[21:28:06] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[21:28:06] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[21:28:06] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.RegisteredCommand.invoke(RegisteredCommand.java:152)
+[21:28:06] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.executeCommand(BaseCommand.java:582)
+[21:28:06] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.execute(BaseCommand.java:517)
+[21:28:06] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.execute(RootCommand.java:99)
+[21:28:06] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.command.MVRootCommand.execute(MVRootCommand.java:19)
+[21:28:06] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.BukkitRootCommand.execute(BukkitRootCommand.java:84)
+[21:28:06] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
+[21:28:06] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:451)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:357)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:345)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2313)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2286)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1450)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1430)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1424)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1381)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1389)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1266)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[21:28:06] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[21:28:06] [Server thread/WARN]: java.lang.UnsupportedOperationException: Cannot remove player RjsMc, use Player#kickPlayer(String) instead.
+[21:28:06] [Server thread/WARN]: 	at org.bukkit.craftbukkit.entity.CraftPlayer.remove(CraftPlayer.java:269)
+[21:28:06] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.world.entity.EntityPurger.lambda$purgeAllEntities$3(EntityPurger.java:58)
+[21:28:06] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.vavr.control.Option.peek(Option.java:416)
+[21:28:06] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.world.entity.EntityPurger.purgeAllEntities(EntityPurger.java:56)
+[21:28:06] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.commands.PurgeAllEntitiesCommand.onPurgeAllEntitiesCommand(PurgeAllEntitiesCommand.java:45)
+[21:28:06] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[21:28:06] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[21:28:06] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.RegisteredCommand.invoke(RegisteredCommand.java:152)
+[21:28:06] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.executeCommand(BaseCommand.java:582)
+[21:28:06] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.BaseCommand.execute(BaseCommand.java:517)
+[21:28:06] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.RootCommand.execute(RootCommand.java:99)
+[21:28:06] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.core.command.MVRootCommand.execute(MVRootCommand.java:19)
+[21:28:06] [Server thread/WARN]: 	at multiverse-core-5.3.0.jar//org.mvplugins.multiverse.external.acf.commands.BukkitRootCommand.execute(BukkitRootCommand.java:84)
+[21:28:06] [Server thread/WARN]: 	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83)
+[21:28:06] [Server thread/WARN]: 	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:451)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:357)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.commands.Commands.performCommand(Commands.java:345)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2313)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:2286)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.server.TickTask.run(TickTask.java:18)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1450)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1430)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1424)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1381)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1389)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1266)
+[21:28:06] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310)
+[21:28:06] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[21:28:08] [Server thread/INFO]: RjsMc issued server command: /mv purge-all-entities animal
+[21:28:11] [Server thread/INFO]: RjsMc issued server command: /mv purge-all-entities monster
+[21:29:23] [Server thread/INFO]: RjsMc issued server command: /mv gamerule list
+[21:29:30] [Server thread/INFO]: RjsMc issued server command: /mv whoall
+[21:29:36] [Server thread/INFO]: RjsMc issued server command: /mv entity-spawn-config info
+[21:29:41] [Server thread/INFO]: RjsMc issued server command: /mv version
+[21:30:08] [Server thread/INFO]: RjsMc issued server command: /mv modify MurderRun set allow-advancement-grant false
+[21:30:15] [Server thread/INFO]: RjsMc issued server command: /mv modify MurderRun set allow-weather false
+[21:30:20] [Server thread/INFO]: RjsMc issued server command: /weather storm
+[21:30:23] [Server thread/INFO]: RjsMc issued server command: /mv modify MurderRun set allow-weather true
+[21:30:25] [Server thread/INFO]: RjsMc issued server command: /weather storm
+[21:30:28] [Server thread/INFO]: RjsMc issued server command: /weather sun
+[21:30:38] [Server thread/INFO]: RjsMc issued server command: /mv modify MurderRun set pvp true
+[21:30:43] [Server thread/INFO]: RjsMc issued server command: /mv modify MurderRun set gamemode adventure
+[21:32:22] [Server thread/INFO]: RjsMc issued server command: /mv modify MurderRun set bed-respawn false
+[21:32:34] [Server thread/INFO]: RjsMc issued server command: /mv modify MurderRun set hunger false
+[21:32:43] [Server thread/INFO]: RjsMc issued server command: /mv modify MurderRun set keep-spawn-in-memory false
+[21:32:47] [Server thread/INFO]: RjsMc issued server command: /mv modify MurderRun set auto-heal false
+[21:32:58] [Server thread/INFO]: RjsMc issued server command: /gamemode creative
+[21:33:03] [Server thread/INFO]: RjsMc issued server command: /mvtp RjsMc hub
+[21:33:06] [Server thread/INFO]: RjsMc issued server command: /gamemode creative
+[21:33:18] [Server thread/INFO]: RjsMc issued server command: /tp RjsMc 1000 ~ 1000
+[21:33:18] [Server thread/WARN]: RjsMc moved too quickly! 999.9453223444835,-0.4071223249725904,1000.6394854404277
+[21:33:18] [Server thread/WARN]: RjsMc moved too quickly! 999.9453223444835,-0.4071223249725904,1000.6394854404277
+[21:33:24] [Server thread/INFO]: RjsMc issued server command: /setblock ~ ~ ~ minecraft:glass
+[21:33:24] [Server thread/INFO]: [RjsMc: Changed the block at 1000, -35, 1000]
+[21:38:19] [Server thread/INFO]: RjsMc issued server command: /gamerule doDaylightCycle false
+[21:38:19] [Server thread/INFO]: [RjsMc: Gamerule doDaylightCycle is now set to: false]
+[21:39:26] [Server thread/INFO]: RjsMc issued server command: //wand
+[21:39:38] [Server thread/INFO]: RjsMc issued server command: /tp RjsMc 10000 ~ 10000
+[21:39:39] [Server thread/WARN]: RjsMc moved too quickly! 9000.0,0.12108525548927673,9000.0
+[21:39:39] [Server thread/WARN]: RjsMc moved too quickly! 9000.0,0.12108525548927673,9000.0
+[21:39:39] [Server thread/WARN]: RjsMc moved too quickly! 9000.0,0.12108525548927673,9000.0
+[21:39:50] [Server thread/INFO]: RjsMc issued server command: /setblock ~ ~ ~
+[21:39:53] [Server thread/INFO]: RjsMc issued server command: /setblock ~ ~ ~ minecraft:glass
+[21:39:53] [Server thread/INFO]: [RjsMc: Changed the block at 10000, -34, 10000]
+[21:40:20] [Server thread/INFO]: RjsMc issued server command: /tp RjsMc ~ ~ ~
+[21:40:23] [Server thread/INFO]: RjsMc issued server command: /tp RjsMc ~ ~ ~ ^ ^ ^
+[21:40:25] [Server thread/INFO]: RjsMc issued server command: /tp RjsMc ~ ~ ~ ^ ^
+[21:40:28] [Server thread/INFO]: RjsMc issued server command: /tp RjsMc ~ ~ ~
+[21:40:34] [Server thread/INFO]: RjsMc issued server command: /time set day
+[21:40:40] [Server thread/INFO]: RjsMc issued server command: /tp RjsMc ~ ~ ~ 90
+[21:40:45] [Server thread/INFO]: RjsMc issued server command: /tp RjsMc RjsMc
+[21:40:48] [Server thread/INFO]: RjsMc issued server command: /tp RjsMc ~
+[21:40:49] [Server thread/INFO]: RjsMc issued server command: /tp RjsMc ~ ~ ~
+[21:40:51] [Server thread/INFO]: RjsMc issued server command: /tp RjsMc ~ ~10 ~
+[21:41:06] [Server thread/INFO]: RjsMc issued server command: /tp RjsMc ~ ~10 ~ 90 90
+[21:41:24] [Server thread/INFO]: RjsMc issued server command: /tp RjsMc ~ ~10 ~ facing 90 90
+[21:41:25] [Server thread/INFO]: RjsMc issued server command: /tp RjsMc ~ ~10 ~ facing 90 90 90
+[21:41:30] [Server thread/INFO]: RjsMc issued server command: /tpa
+[21:41:38] [Server thread/INFO]: RjsMc issued server command: /essentials commands
+[21:42:35] [Server thread/INFO]: RjsMc issued server command: /luckperms group default permission set essentials false
+[21:42:35] [luckperms-command-executor/INFO]: [LP] LOG > (RjsMc) [G] (default)
+[21:42:35] [luckperms-command-executor/INFO]: [LP] LOG > permission set essentials false
+[21:42:58] [Server thread/INFO]: RjsMc issued server command: /setspawn
+[21:43:04] [Server thread/INFO]: RjsMc issued server command: /mv setspawn
+[21:43:10] [Server thread/INFO]: RjsMc issued server command: /spawnpoint
+[21:43:10] [Server thread/INFO]: [RjsMc: Set spawn point to 10000, -33, 10000 [0.0] in minecraft:overworld for RjsMc]
+[21:44:13] [Server thread/INFO]: RjsMc issued server command: /setspawn
+[21:44:18] [Server thread/INFO]: RjsMc issued server command: /setworldspawn
+[21:44:18] [Server thread/INFO]: [RjsMc: Set the world spawn point to 10000, -33, 10000 [0.0]]
+[21:44:36] [Server thread/INFO]: RjsMc issued server command: /spawn
+[21:44:41] [Server thread/INFO]: RjsMc issued server command: /mvtp Spawn
+[21:44:44] [Server thread/INFO]: RjsMc issued server command: /mvtp RjsMc spawn
+[21:45:05] [Server thread/INFO]: RjsMc issued server command: /mvtp Spawn
+[21:45:34] [Server thread/INFO]: RjsMc issued server command: /mv setspawn
+[21:45:54] [Server thread/INFO]: RjsMc issued server command: /spawn
+[21:45:58] [Server thread/INFO]: RjsMc issued server command: /luckperms group
+[21:46:29] [Server thread/INFO]: RjsMc issued server command: /mv tp hub_nether
+[21:46:29] [Server thread/INFO]: RjsMc has made the advancement [We Need to Go Deeper]
+[21:46:32] [Server thread/INFO]: RjsMc issued server command: /mv tp Hub
+[21:46:40] [Server thread/INFO]: RjsMc issued server command: /mv delete hub_nether
+[21:46:42] [Server thread/INFO]: RjsMc issued server command: /mv delete hub_the_end
+[21:46:44] [Server thread/INFO]: RjsMc issued server command: /mv confirm 162
+[21:46:50] [Server thread/INFO]: RjsMc issued server command: /mv confirm 694
+[21:46:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'hub_the_end'
+[21:46:50] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'hub_the_end'
+[21:46:50] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'hub_the_end'
+[21:46:50] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'hub_the_end'
+[21:46:51] [Server thread/INFO]: RjsMc issued server command: /mv delete hub_nether
+[21:46:53] [Server thread/INFO]: RjsMc issued server command: /mv confirm 410
+[21:46:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'hub_nether'
+[21:46:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'hub_nether'
+[21:46:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'hub_nether'
+[21:46:53] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'hub_nether'
+[21:47:01] [Server thread/INFO]: RjsMc issued server command: /gamemode creative
