@@ -14,9 +14,4 @@ aliases:
   icanhasbukkit:
   - version $1-
   hub:
-<<<<<<< HEAD
   - multiverse-core:mvtp a:Hub
-  - tellraw @s [{"text":"Teleporting to the ","color":"white"},{"text":"Hub","color":"aqua","bold":true}]
-=======
-  - multiverse-core:mvtp a:Hub
->>>>>>> refs/remotes/origin/server_files
