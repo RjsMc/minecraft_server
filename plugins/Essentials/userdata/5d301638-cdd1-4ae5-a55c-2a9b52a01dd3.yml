@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 216.15.37.197
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1760591773180
+  login: 1760591328013
+money: '0'
+last-account-name: rohanr67j267
+lastlocation:
+  world: 20c8a6fd-056b-4b03-9278-2c0b3af381b7
+  world-name: NikoWorld
+  x: -92.30000001192093
+  y: 98.0
+  z: -1823.8713594007993
+  yaw: -150.1259765625
+  pitch: 19.157472610473633
+logoutlocation:
+  world: 594c1840-8bcb-4504-b562-a45c1ba27e9f
+  world-name: RjsMc_Hub
+  x: 11.347900925042019
+  y: -60.0
+  z: 11.243257677640697
+  yaw: -5.750124931335449
+  pitch: -1.6504528522491455

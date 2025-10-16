@@ -4,35 +4,35 @@ godmode: false
 muted: false
 jailed: false
 ip-address: 129.2.89.12
-afk: false
+afk: true
 socialspy: false
 npc: false
 powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1760502126360
+  lastteleport: 1760590643402
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1760565774725
-  login: 1760565654091
+  logout: 1760598735929
+  login: 1760599071760
 money: '0'
 last-account-name: RjsMc
 lastlocation:
-  world: 594c1840-8bcb-4504-b562-a45c1ba27e9f
-  world-name: RjsMc_Hub
-  x: 8.444588806451259
-  y: -60.0
-  z: 8.357243008899879
-  yaw: -2.3732147216796875
-  pitch: 78.83354949951172
+  world: 20c8a6fd-056b-4b03-9278-2c0b3af381b7
+  world-name: NikoWorld
+  x: -1.5
+  y: 63.0
+  z: -129.5
+  yaw: -2.5044780613825424E-6
+  pitch: 0.0
 logoutlocation:
-  world: 594c1840-8bcb-4504-b562-a45c1ba27e9f
-  world-name: RjsMc_Hub
-  x: 8.5
-  y: -9.0
-  z: 8.5
-  yaw: 0.46340543031692505
-  pitch: 41.765663146972656
+  world: 238f83ec-d2d6-47a8-b944-4bb972596cfc
+  world-name: MurderRun
+  x: 4.893712351035542
+  y: -60.0
+  z: 5.431488307147929
+  yaw: -125.77178955078125
+  pitch: 0.5768835544586182
