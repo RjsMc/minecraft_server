@@ -16,18 +16,18 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1760503706443
-  login: 1760502347622
+  logout: 1760577154115
+  login: 1760576120073
 money: '0'
 last-account-name: Ratatooota
 logoutlocation:
   world: 594c1840-8bcb-4504-b562-a45c1ba27e9f
   world-name: RjsMc_Hub
-  x: 8.519256233113225
-  y: -60.0
-  z: 8.671880683551498
-  yaw: -176.64366149902344
-  pitch: 39.746864318847656
+  x: 8.819106771683186
+  y: -9.0
+  z: 8.489961071461776
+  yaw: 7.11370849609375
+  pitch: 31.419151306152344
 lastlocation:
   world: 20c8a6fd-056b-4b03-9278-2c0b3af381b7
   world-name: NikoWorld
