@@ -12,13 +12,15 @@ header-footer:
       header:
         - "<#FFFFFF>&m                                                </#FFFF00>"
         - "%animation:ServerName%"
+        - ""
         - "&r&7&l>> %animation:Welcome%&3 &l%player%&7&l! &7&l<<"
         - "&r&7Online players: &f%online%"
-        - "&6Online staff: &e%staffonline%"
         - ""
       footer:
+        - ""
         - "%animation:time%"
         - "&2Ping: %ping%"
+        - ""
         - "&7&l Used memory: %memory-used% MB / %memory-max% MB"
         - "<#FFFFFF>&m                                                </#FFFF00>"
 

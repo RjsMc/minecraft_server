@@ -1,0 +1,40 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 71.163.81.42
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1760674864763
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1760676733455
+  login: 1760675927398
+  kits:
+    birch: 1760672840950
+money: '2997.00'
+last-account-name: MattonMat
+lastlocation:
+  world: 20c8a6fd-056b-4b03-9278-2c0b3af381b7
+  world-name: NikoWorld
+  x: 1278.0892467020938
+  y: 158.5625
+  z: 1818.5888980457282
+  yaw: 52.71467208862305
+  pitch: 7.245730876922607
+logoutlocation:
+  world: 594c1840-8bcb-4504-b562-a45c1ba27e9f
+  world-name: RjsMc_Hub
+  x: 8.131720439517379
+  y: -8.254017924606748
+  z: 14.83110434120291
+  yaw: -177.212890625
+  pitch: 2.900278329849243

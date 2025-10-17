@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: true
+muted: false
+jailed: false
+ip-address: 71.178.147.60
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1760669730123
+  login: 1760667695500
+money: '0'
+last-account-name: Wolf_Main16
+logoutlocation:
+  world: 20c8a6fd-056b-4b03-9278-2c0b3af381b7
+  world-name: NikoWorld
+  x: -47.30000001192093
+  y: 48.74143177341116
+  z: -288.69999998807907
+  yaw: 29.375244140625
+  pitch: -57.88168716430664
+lastlocation:
+  world: 20c8a6fd-056b-4b03-9278-2c0b3af381b7
+  world-name: NikoWorld
+  x: -154.24512154250985
+  y: 102.37468250332586
+  z: -136.53916706665953
+  yaw: -64.46023559570312
+  pitch: 8.983884811401367

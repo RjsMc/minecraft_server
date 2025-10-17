@@ -3,15 +3,38 @@
 # To ADD, DELETE, and EDIT groups use the command /mvinv group.
 # No support will be given for those who manually edit these groups.
 groups:
-  NikoWorld:
+  NikoWorldGroup:
     worlds:
     - nikoworld_the_end
     - nikoworld
     - nikoworld_nether
     shares:
-    - all
-  Hub_Group:
+    - hit_points
+    - max_hit_points
+    - economy
+    - food_level
+    - saturation
+    - exhaustion
+    - xp
+    - total_xp
+    - lvl
+    - inventory_contents
+    - armor_contents
+    - bed_spawn
+    - maximum_air
+    - remaining_air
+    - fall_distance
+    - fire_ticks
+    - potion_effects
+    - ender_chest
+    - off_hand
+    - game_statistics
+    - advancements
+    - recipes
+  NikoWorldGroupLastLocation:
     worlds:
-    - rjsmc_hub
+    - nikoworld_the_end
+    - nikoworld
+    - nikoworld_nether
     shares:
     - last_location

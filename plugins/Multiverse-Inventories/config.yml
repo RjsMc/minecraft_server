@@ -34,12 +34,13 @@ share-handling:
   # When set to true, optional shares WILL be utilized in cases where a group does not cover their uses for a world.
   # An example of this in action would be an ungrouped world using last_location. When this is true, players will return to their last location in that world.
   # When set to false, optional shares WILL NOT be utilized in these cases, effectively disabling it for ungrouped worlds.
-  use-optionals-for-ungrouped-worlds: true
+  use-optionals-for-ungrouped-worlds: false
   
   # You must specify optional shares you wish to use here or they will be ignored.
   # Built-in optional shares are: "economy" and "last_location".
   active-optional-shares:
   - recipes
+  - last_location
   
   
 sharables:
