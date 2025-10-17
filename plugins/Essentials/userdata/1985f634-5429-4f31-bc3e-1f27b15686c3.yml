@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 108.48.188.223
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1760665515952
+  login: 1760664617992
+money: '0'
+last-account-name: Epiphonically
+lastlocation:
+  world: 594c1840-8bcb-4504-b562-a45c1ba27e9f
+  world-name: RjsMc_Hub
+  x: 8.206735353292201
+  y: -9.0
+  z: 8.802082035656891
+  yaw: 1.68170166015625
+  pitch: 38.125831604003906
+logoutlocation:
+  world: 20c8a6fd-056b-4b03-9278-2c0b3af381b7
+  world-name: NikoWorld
+  x: -157.10901049145275
+  y: 3.6801967416344583
+  z: -129.11207604145847
+  yaw: 95.28363037109375
+  pitch: 28.14521026611328

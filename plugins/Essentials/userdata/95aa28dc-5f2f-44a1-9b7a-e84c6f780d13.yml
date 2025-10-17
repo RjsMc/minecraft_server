@@ -1,0 +1,42 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 129.2.89.64
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1760674444494
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1760675271721
+  login: 1760671494003
+  kits:
+    firework: 1760674066777
+    notch: 1760674078612
+    birch: 1760674086795
+money: '0'
+last-account-name: SeenVerge
+logoutlocation:
+  world: 20c8a6fd-056b-4b03-9278-2c0b3af381b7
+  world-name: NikoWorld
+  x: 1738.5837285032555
+  y: 89.51416933329368
+  z: 2284.969999998808
+  yaw: -154.0355682373047
+  pitch: -66.86427307128906
+lastlocation:
+  world: 20c8a6fd-056b-4b03-9278-2c0b3af381b7
+  world-name: NikoWorld
+  x: -87.68214262197193
+  y: 141.0
+  z: -80.57743734141675
+  yaw: 91.60926818847656
+  pitch: -13.651114463806152

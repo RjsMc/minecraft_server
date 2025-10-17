@@ -71,11 +71,11 @@ NikoWorld:
   seed: 7770778358085341565
   spawn-location:
     ==: MVSpawnLocation
-    x: -48.5
-    y: 62.0
-    z: -31.5
-    pitch: 0.0
-    yaw: 0.0
+    x: -88.5389609374955
+    y: 141.0
+    z: -80.57680643265921
+    pitch: 3.2311351
+    yaw: 89.49895
   spawning:
     misc:
       spawn: true
@@ -250,11 +250,11 @@ RjsMc_Hub:
   seed: -7455760846708205982
   spawn-location:
     ==: MVSpawnLocation
-    x: 8.399175829286065
-    y: -9.0
-    z: 8.56673062750721
-    pitch: -0.040982872
-    yaw: -0.039242208
+    x: 8.349939171308565
+    y: 2.0
+    z: -5.764300789848715
+    pitch: 31.581814
+    yaw: -2.5119019
   spawning:
     monster:
       spawn: true
